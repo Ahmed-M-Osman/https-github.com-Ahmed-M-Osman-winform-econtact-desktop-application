@@ -145,7 +145,7 @@ namespace EContact
 
         private void dgvContactList_RowHeaderMouseClick_1(object sender, DataGridViewCellMouseEventArgs e)
         {
-            //Get the DAta From DAta Grid View and Load it to the textboxes respectively
+            //Get the DAta From Data Grid View and Load it to the textboxes respectively
             //identify the row on which mouse is clicked
             int rowIndex = e.RowIndex;
             textBoxContactID.Text = dgvContactList.Rows[rowIndex].Cells[0].Value.ToString();
